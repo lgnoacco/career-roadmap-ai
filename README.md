@@ -1,103 +1,97 @@
-# 🚀 Career Roadmap AI
+🚀 Career Roadmap AI
 
-O **Career Roadmap AI** é uma aplicação web desenvolvida como projeto acadêmico com o objetivo de ajudar usuários a planejar suas carreiras utilizando inteligência artificial.
+O Career Roadmap AI é uma aplicação web desenvolvida como projeto acadêmico com o objetivo de ajudar usuários a planejar suas carreiras utilizando inteligência artificial.
 
-O sistema analisa interesses, habilidades e objetivos profissionais para gerar um **roadmap de aprendizado**, indicando tecnologias, habilidades e etapas necessárias para alcançar uma carreira desejada.
+O sistema analisa interesses, habilidades e objetivos profissionais para gerar um roadmap de aprendizado, indicando tecnologias, habilidades e etapas necessárias para alcançar uma carreira desejada.
 
----
+🎓 Sobre o Projeto
 
-# 🎓 Sobre o Projeto
-
-Este projeto foi desenvolvido como **trabalho acadêmico da disciplina de Engenharia de Software**.
+Este projeto foi desenvolvido como trabalho acadêmico da disciplina de Engenharia de Software.
 
 O objetivo é aplicar conceitos importantes da área, como:
 
-* organização de projetos
-* arquitetura de software
-* desenvolvimento web
-* trabalho em equipe utilizando controle de versão
+organização de projetos
 
----
+arquitetura de software
 
-# 🧠 Tecnologias Utilizadas
+desenvolvimento web
 
-## Backend
+trabalho em equipe utilizando controle de versão
 
-* Python
-* Flask
+🧠 Tecnologias Utilizadas
+Backend
 
-## Frontend
+Python
 
-* HTML
-* CSS
-* JavaScript
+Flask
 
-## Banco de Dados
+Frontend
 
-* MySQL
+HTML
 
-## Ferramentas
+CSS
 
-* Git
-* GitHub
-* WampServer (ambiente local)
+JavaScript
 
----
+Banco de Dados
 
-# 📁 Estrutura do Projeto
+MySQL
+
+Ferramentas
+
+Git
+
+GitHub
+
+WampServer (ambiente local)
+
+📁 Estrutura do Projeto
 
 career-roadmap-ai
 
 ├── backend
-│   ├── app
-│   │   ├── database
-│   │   ├── models
-│   │   ├── routes
-│   │   ├── services
-│   │   ├── utils
-│   │   └── **init**.py
-│   │
-│   ├── config.py
-│   ├── run.py
-│   └── requirements.txt
+│ ├── app
+│ │ ├── database
+│ │ ├── models
+│ │ ├── routes
+│ │ ├── services
+│ │ ├── utils
+│ │ └── init.py
+│ │
+│ ├── config.py
+│ ├── run.py
+│ └── requirements.txt
 │
 ├── docs
-│   ├── architecture.md
-│   ├── database.md
-│   └── requirements.md
+│ ├── architecture.md
+│ ├── database.md
+│ └── requirements.md
 │
 ├── frontend
-│   ├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── js
-│   │   └── app.js
-│   └── pages
-│       └── index.html
+│ ├── assets
+│ ├── css
+│ │ └── style.css
+│ ├── js
+│ │ └── app.js
+│ └── pages
+│ └── index.html
 │
 ├── .gitignore
 ├── LICENSE
 └── README.md
 
----
-
-# ⚙️ Como Executar o Projeto
-
-## 1️⃣ Clonar o repositório
+⚙️ Como Executar o Projeto
+1️⃣ Clonar o repositório
 
 git clone https://github.com/lgnoacco/career-roadmap-ai.git
 
 cd career-roadmap-ai
 
----
-
-## 2️⃣ Criar ambiente virtual
+2️⃣ Criar ambiente virtual
 
 python -m venv .venv
 
----
-
-## 3️⃣ Ativar ambiente virtual
+3️⃣ Ativar ambiente virtual
 
 Windows
 
@@ -107,15 +101,11 @@ Linux / Mac
 
 source .venv/bin/activate
 
----
-
-## 4️⃣ Instalar dependências
+4️⃣ Instalar dependências
 
 pip install -r backend/requirements.txt
 
----
-
-## 5️⃣ Executar o servidor
+5️⃣ Executar o servidor
 
 python backend/run.py
 
@@ -123,32 +113,32 @@ O servidor será iniciado em:
 
 http://127.0.0.1:5000
 
----
+📚 Documentação
 
-# 📚 Documentação
+A pasta docs contém a documentação do projeto:
 
-A pasta **docs** contém a documentação do projeto:
+architecture.md → Arquitetura do sistema
 
-* architecture.md → Arquitetura do sistema
-* database.md → Estrutura do banco de dados
-* requirements.md → Requisitos do sistema
+database.md → Estrutura do banco de dados
 
----
+requirements.md → Requisitos do sistema
 
-# 👥 Equipe
+👥 Equipe
 
-Projeto desenvolvido para a disciplina de **Engenharia de Software**.
+Projeto desenvolvido para a disciplina de Engenharia de Software.
 
 Integrantes do grupo:
 
-* Luis Guilherme Noacco
-* Diego Albergaria
-* Eduardo Dias
-* Breno Guerra
-* Luiz Gustavo
+Luis Guilherme Noacco
 
----
+Diego Albergaria
 
-# 📄 Licença
+Eduardo Dias
 
-Este projeto está licenciado sob a **MIT License**.
+Breno Guerra
+
+Luiz Gustavo
+
+📄 Licença
+
+Este projeto está licenciado sob a MIT License.
