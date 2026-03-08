@@ -1,145 +1,141 @@
-# Career Roadmap AI
+# 🚀 Career Roadmap AI
 
-Career Roadmap AI é uma plataforma que ajuda estudantes e profissionais a planejarem suas carreiras na área digital através de **roadmaps personalizados de aprendizado**.
+O **Career Roadmap AI** é uma aplicação web desenvolvida como projeto acadêmico com o objetivo de ajudar usuários a planejar suas carreiras utilizando inteligência artificial.
 
-O sistema analisa habilidades atuais, objetivos profissionais e demandas do mercado para gerar um **plano estruturado de desenvolvimento**, funcionando como um **GPS de carreira**.
-
----
-
-## 📌 Problema
-
-Com a grande quantidade de cursos, tecnologias e conteúdos disponíveis hoje, muitas pessoas enfrentam dificuldades como:
-
-* não saber por onde começar
-* estudar tecnologias desconectadas
-* comprar cursos sem estratégia
-* não saber quais habilidades priorizar
-* falta de visão clara de carreira
-
-Esse excesso de informação gera **confusão e paralisia na tomada de decisões**.
+O sistema analisa interesses, habilidades e objetivos profissionais para gerar um **roadmap de aprendizado**, indicando tecnologias, habilidades e etapas necessárias para alcançar uma carreira desejada.
 
 ---
 
-## 💡 Solução
+# 🎓 Sobre o Projeto
 
-O Career Roadmap AI propõe uma plataforma que:
+Este projeto foi desenvolvido como **trabalho acadêmico da disciplina de Engenharia de Software**.
 
-* realiza diagnóstico de habilidades do usuário
-* identifica objetivos profissionais
-* gera um roadmap personalizado de aprendizado
-* recomenda cursos e conteúdos relevantes
-* acompanha a evolução das habilidades
+O objetivo é aplicar conceitos importantes da área, como:
 
----
-
-## 🧠 Funcionalidades
-
-* criação de perfil de usuário
-* diagnóstico de habilidades
-* definição de objetivo de carreira
-* geração automática de roadmap
-* recomendação de cursos
-* acompanhamento de progresso
+* organização de projetos
+* arquitetura de software
+* desenvolvimento web
+* trabalho em equipe utilizando controle de versão
 
 ---
 
-## 🧑‍💻 Tecnologias Utilizadas
+# 🧠 Tecnologias Utilizadas
 
-Backend
+## Backend
 
 * Python
 * Flask
 
-Frontend
+## Frontend
 
 * HTML
 * CSS
 * JavaScript
 
-Banco de Dados
+## Banco de Dados
 
 * MySQL
 
-Ferramentas
+## Ferramentas
 
 * Git
 * GitHub
+* WampServer (ambiente local)
 
 ---
 
-## 📁 Estrutura do Projeto
+# 📁 Estrutura do Projeto
 
-```
 career-roadmap-ai
-│
+
 ├── backend
-│   ├── app.py
+│   ├── app
+│   │   ├── database
+│   │   ├── models
+│   │   ├── routes
+│   │   ├── services
+│   │   ├── utils
+│   │   └── **init**.py
+│   │
+│   ├── config.py
+│   ├── run.py
 │   └── requirements.txt
+│
+├── docs
+│   ├── architecture.md
+│   ├── database.md
+│   └── requirements.md
+│
+├── frontend
+│   ├── assets
+│   ├── css
+│   │   └── style.css
+│   ├── js
+│   │   └── app.js
+│   └── pages
+│       └── index.html
 │
 ├── .gitignore
 ├── LICENSE
 └── README.md
-```
 
 ---
 
-## ⚙️ Como Executar o Projeto
+# ⚙️ Como Executar o Projeto
 
-### 1. Clone o repositório
+## 1️⃣ Clonar o repositório
 
-```
 git clone https://github.com/lgnoacco/career-roadmap-ai.git
-```
 
-### 2. Entre na pasta do projeto
-
-```
 cd career-roadmap-ai
-```
 
-### 3. Crie e ative o ambiente virtual
+---
 
-```
+## 2️⃣ Criar ambiente virtual
+
 python -m venv .venv
-```
 
-Windows:
+---
 
-```
+## 3️⃣ Ativar ambiente virtual
+
+Windows
+
 .venv\Scripts\activate
-```
 
-### 4. Instale as dependências
+Linux / Mac
 
-```
+source .venv/bin/activate
+
+---
+
+## 4️⃣ Instalar dependências
+
 pip install -r backend/requirements.txt
-```
-
-### 5. Execute o servidor
-
-```
-python backend/app.py
-```
-
-O servidor irá iniciar em:
-
-```
-http://localhost:5000
-```
 
 ---
 
-## 🚀 Futuras Melhorias
+## 5️⃣ Executar o servidor
 
-* sistema de autenticação de usuários
-* dashboard de progresso de habilidades
-* recomendação inteligente de cursos
-* integração com APIs de vagas de emprego
-* algoritmo de recomendação com Machine Learning
+python backend/run.py
+
+O servidor será iniciado em:
+
+http://127.0.0.1:5000
 
 ---
 
-## 👥 Equipe
+# 📚 Documentação
+
+A pasta **docs** contém a documentação do projeto:
+
+* architecture.md → Arquitetura do sistema
+* database.md → Estrutura do banco de dados
+* requirements.md → Requisitos do sistema
+
+---
+
+# 👥 Equipe
 
 Projeto desenvolvido para a disciplina de **Engenharia de Software**.
 
@@ -153,6 +149,6 @@ Integrantes do grupo:
 
 ---
 
-## 📄 Licença
+# 📄 Licença
 
 Este projeto está licenciado sob a **MIT License**.
